@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE smil PUBLIC "-//W3C//DTD SMIL 1.0//EN" "http://www.w3.org/TR/REC-smil/SMIL10.dtd">
+
+<smil xmlns="http://www.w3.org/TR/REC-smil">
+  <head>
+    <layout 
+            type="text/smil-basic-layout">
+      <root-layout 
+                   id="rootLayout" 
+                   width="600" 
+                   height="400"
+                  background-color="#BBBBBB"/>
+      <region 
+              id="region_1" 
+              background-color="white" 
+              left="48" 
+              top="30" 
+              width="100" 
+              height="100"/>
+      <region 
+              id="region_2" 
+              background-color="white" 
+              left="48" 
+              top="138" 
+              width="100" 
+              height="200" >     
+      </region>
+      <region 
+              id="region_3" 
+              background-color="white" 
+              left="174" 
+              top="30" 
+              width="400" 
+              height="300"/>
+    </layout>
+  </head>
+  <body id="body">
+
+
+  <par>
+      <seq>
+    <img
+        dur="2s"
+        region="region_1"
+        id="pic6"
+        src="pic6.jpg"/>
+    <img
+        dur="2s"
+        region="region_2"
+        id="pic4"
+        src="pic4.jpg"/>
+
+    <img
+        dur="2s"
+        region="region_1"
+        id="pic5"
+        src="pic5.jpg"/>
+      <img
+        dur="2s"
+        region="region_2"
+        id="pic7"
+        src="pic7.jpg"/>
+  </seq>
+    <img
+        dur="2s"
+        region="region_3"
+        id="pic1"
+        src="pic1.jpg"/>
+        <img
+        dur="2s"
+        begin="id(pic1)(end)"
+        region="region_3"
+        id="pic2"
+        src="pic2.jpg"/>
+
+        <img
+        dur="2s"
+        begin="id(pic2)(end)"
+        region="region_3"
+        id="pic3"
+        src="pic3.jpg"/>
+  </par>
+
+  </body>
+</smil>

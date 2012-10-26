@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE smil PUBLIC "-//W3C//DTD SMIL 2.0//EN" "http://www.w3.org/2001/SMIL20/SMIL20.dtd">
+
+<smil xmlns="http://www.w3.org/2001/SMIL20/Language">
+  <head>
+    <layout 
+            type="text/smil-basic-layout">
+      <root-layout 
+                   id="root" 
+                   width="600" 
+                   height="400"
+                    background-color="#BBBBBB"/>
+      <region 
+              id="green_region" 
+              backgroundColor="green" 
+              left="7%" 
+              top="7%" 
+              width="500" 
+              height="200"/>
+      <region 
+              id="yellow_region" 
+              backgroundColor="yellow" 
+              left="42" 
+              top="264" 
+              width="500" 
+              height="100"/>
+    </layout>
+  </head>
+  <body 
+        id="body"/>
+</smil>
