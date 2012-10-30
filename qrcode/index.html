@@ -19,9 +19,17 @@
 
 	<div class="container-fluid default-container">
 		<div class="row-fluid">
-		     <div class="span12">
-		     	<h2> Guilherme Severo - 171832 </h2>
-		     	<div id="output"></div>
+		     <div class="span8">
+		     	<h2>Universidade Federal do Rio Grande do Sul</h2>
+		     	<h3> Instituto de Informática</h3>
+		     	<h4> INF01021 - Projeto De Hiperdocumentos</h4>
+		     	<h4> Guilherme Severo - 171832 </h4>
+		     	
+		     	<a class="btn btn-info btn-small" id="btnInfo">Mostrar Mensagem</a><br>
+		     	<div class="mensagem"></div>
+			 </div>
+			 <div class="span4">
+			 	<div id="output"></div>
 			 </div>
 		</div>
 	</div>
@@ -35,9 +43,26 @@
 	<script type="text/javascript" src="js/jquery.qrcode.min.js"></script>
 	
 	<script>
+	var mensagem = "http://www.inf.ufrgs.br/~grsevero";
+
+	$('#btnInfo').popover(
+		{
+			content: mensagem,
+			placement: 'bottom'
+
+		});
+
+	$('#output').popover(
+		{
+			content: mensagem,
+			placement: 'left'
+
+		});
+
 	jQuery(function(){
-		jQuery('#output').qrcode("Mensagem de Guilherme Severo");
+		jQuery('#output').qrcode(mensagem);
 	})
+
 </script>
 	</body>
 </html>
