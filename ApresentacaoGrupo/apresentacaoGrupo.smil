@@ -99,13 +99,13 @@
         dur="5" 
         src="MEDIAS\text_guilherme.txt" 
         region="region_udg" 
-        id="text_diogo1"/>
+        id="text_guilherme1"/>
       <img 
          fit="fill" 
          dur="5" 
          src="MEDIAS/inf.jpg" 
          region="region_n" 
-         id="img_diogo1"/>
+         id="img_guilherme1"/>
     </par>
 	</seq>
   </body>
