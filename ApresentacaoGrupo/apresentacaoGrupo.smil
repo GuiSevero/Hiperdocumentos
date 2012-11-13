@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE smil PUBLIC "-//W3C//DTD SMIL 2.0//EN" "http://www.w3.org/2001/SMIL20/SMIL20.dtd">
+
+<smil xmlns="http://www.w3.org/2001/SMIL20/Language" xmlns:rn="http://features.real.com/2001/SMIL20/Extensions">
+  <head>
+    <meta 
+          name="title" 
+          content="The title"/>
+    <meta 
+          name="author" 
+          content="The author"/>
+    <meta 
+          name="copyright" 
+          content="The copyright"/>
+    <meta 
+          name="abstract" 
+          content="The presentation abstract"/>
+    <meta 
+          name="generator" 
+          content="LimSee2 ( http://wam.inrialpes.fr/software/limsee2 )"/>
+    <layout 
+            type="text/smil-basic-layout">
+      <root-layout 
+                   id="rootLayout" 
+                   width="640" 
+                   height="480"/>
+      <region 
+              id="region_rezcg" 
+              backgroundColor="white" 
+              left="0" 
+              top="0" 
+              width="642" 
+              height="480">
+        <region 
+                id="region_n" 
+                backgroundColor="white" 
+                left="0" 
+                top="66" 
+                width="636" 
+                height="408"/>
+        <region 
+                id="region_udg" 
+                backgroundColor="white" 
+                left="108" 
+                top="6" 
+                width="408" 
+                height="80"/>
+      </region>
+    </layout>
+  </head>
+  <body 
+        id="body">
+	<seq>
+		<par>
+		  <text 
+				fit="meet" 
+				dur="5" 
+				src="MEDIAS\text_uznebkeueeslc.txt" 
+				region="region_udg" 
+				id="text_xiqon"/>
+		  <img 
+			   fit="fill" 
+			   dur="5" 
+			   src="MEDIAS/Kamehameha01.gif" 
+			   region="region_n" 
+			   id="img_ty"/>
+		</par>
+		<par>
+		  <text 
+				fit="meet" 
+				dur="5" 
+				src="MEDIAS\text_lucas.txt" 
+				region="region_udg" 
+				id="text_xiqon1"/>
+		  <img 
+			   fit="fill" 
+			   dur="5" 
+			   src="MEDIAS/kamehameha.gif" 
+			   region="region_n" 
+			   id="img_ty1"/>
+		</par>
+		<par>
+		  <text 
+				fit="meet" 
+				dur="5" 
+				src="MEDIAS\text_diogo.txt" 
+				region="region_udg" 
+				id="text_diogo1"/>
+		  <img 
+			   fit="fill" 
+			   dur="5" 
+			   src="MEDIAS/diogo.png" 
+			   region="region_n" 
+			   id="img_diogo1"/>
+		</par>
+    <par>
+      <text 
+        fit="meet" 
+        dur="5" 
+        src="MEDIAS\text_guilherme.txt" 
+        region="region_udg" 
+        id="text_diogo1"/>
+      <img 
+         fit="fill" 
+         dur="5" 
+         src="MEDIAS/inf.jpg" 
+         region="region_n" 
+         id="img_diogo1"/>
+    </par>
+	</seq>
+  </body>
+</smil>
